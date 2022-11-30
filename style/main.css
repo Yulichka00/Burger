@@ -141,7 +141,7 @@ h1 span {
 }
 
 .promo-right .description {
-    max-width: 300px;
+    max-width: 310px;
     margin-bottom: 20px;
 }
 
@@ -154,6 +154,8 @@ h1 span {
 .footer {
     background: #1E2F40;
     color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
 }
 
 .logo {
@@ -165,6 +167,7 @@ h1 span {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 12px;
 }
 
 .item ul,
@@ -177,15 +180,28 @@ h1 span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 .item a {
     color: #DEDEDE;
     text-decoration: none;
-    
+    font-weight: 400;
 }
 
 .item span {
-    color: #FAF9F9;
+    color: #DEDEDE;
     display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.tel ul {
+    font-size: 20px;
+    color: #FBB731;
+}
+
+.tel li {
+    margin-bottom: 12px; 
 }
