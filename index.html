@@ -1,294 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
+<!--Because I'm using Russian Language-->
+<!--<html lang="ru"></html>-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Burgers</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
-    <title>Restaurant</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;800&family=Open+Sans:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="style/main.css">
 </head>
 
 <body>
-    <div class="header">
+    <div class="main">
         <div class="container">
-            <div class="header-line">
-                <div class="header-logo">
-                    <img src="Images/logo.png" alt="Logo">
-                </div>
-
-                <div class="nav">
-                    <a class="nav-item" href="@">Главная</a>
-                    <a class="nav-item" href="@">Меню</a>
-                    <a class="nav-item" href="@">О нас</a>
-                    <a class="nav-item" href="@">Бронь</a>
-                </div>
-
-                <div class="cart">
-                    <a href="#">
-                        <img class="cart-img" src="Images/cart.png" alt="Cart">
-                    </a>
-                </div>
-                <div class="phone">
-                    <div class="phone-holder">
-                        <div class="phone-img">
-                            <img src="Images/phone.png" alt="Phone">
-                        </div>
-                        <div class="number"><a class="num" href="#">+999-888-76-54</a></div>
-                    </div>
-                    <div class="phone-text">
-                        Свяжитесь с нами для<br>
-                        бронирования
-                    </div>
-                </div>
-                <div class="btn">
-                    <a class="button" href="#">Заказ столика</a>
-                </div>
+            <div class="text">
+                <h1>
+                    <span>from 11:00 am to 10:00 pm</span>
+                    Best burgers
+                </h1>
+                <p>
+                    <!--Закажи наши фирменные бургеры или собери что-то своё, a&nbsp;наши курьеры доставят
+                    за&nbsp;30&nbsp;минут-->
+                    Order our craft burgers or get them custom made, <br>and we'll deliver within 30 minutes
+                </p>
+                <a href="#">order</a>
             </div>
-            <div class="header-down">
-                <div class="header-title">
-                    Добро пожаловать в
-
-                    <div class="header-subtitle0">
-                        Наш ресторан
-                    </div>
-                    <div class="header-subtitle">
-                        ДОМ ЛУЧШЕЙ ЕДЫ
-                    </div>
-
-                    <div class="header-btn">
-                        <a href="#" class="header-button">VIEW MENU</a>
-
-                    </div>
-                </div>
+            <div class="visual">
+                <div class="background"></div>
+                <img src="image/burger.png" alt="Burger">
             </div>
         </div>
     </div>
-    <div class="cards">
+    <div class="promo">
         <div class="container">
-            <div class="cards-holder">
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img" src="Images/card.png" alt="food plate">
-                    </div>
-                    <div class="card-title">
-                        Магическая <span>&nbsp;Атмосфера</span>
-                    </div>
-                    <div class="card-description">
-                        В нашем заведении царит магическая атмосфера
-                        наполненная вкусными ароматами
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img" src="Images/card.png" alt="food plate">
-                    </div>
-                    <div class="card-title">
-                        Лучшее качество <span>&nbsp;Еды</span>
-                    </div>
-                    <div class="card-description">
-                        Качество нашей
-                        Еды - отменное!
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img" src="Images/card.png" alt="food plate">
-                    </div>
-                    <div class="card-title">
-                        Недорогая <span>&nbsp;Еда</span>
-                    </div>
-                    <div class="card-description">
-                        Стоимость нашей Еды
-                        зависит только от ее
-                        количества. Качество
-                        всегда на высоте!
-                    </div>
-                </div>
+            <div class="promo-left">
+                <p class="sales">Sale</p>
+                <p class="cost">-20%</p>
+                <p class="description">
+                    We make discounts for birthday celebrations<br> and parties of three or more </p>
+            </div>
+            <div class="promo-right">
+                <p class="free">Free</p>
+                <p class="description">When ordering in the amount of $50 or more - we deliver for free</p>
+                <a href="#">order</a>
             </div>
         </div>
     </div>
-
-    <div class="history">
+    <div class="footer">
         <div class="container">
-
-            <div class="history-holder">
-                <div class="history-info">
-                    <div class="history-title">
-                        Наша<span>&nbsp;История</span>
-                    </div>
-
-                    <div class="history-description">
-                        Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла
-                        основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях
-                        километров
-                        от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать
-                        себе
-                        нехитрый быт, добывать и готовить себе еду.
-                    </div>
-
-                    <div class="history-number">
-                        <div class="number-item">
-                            93 <span>Напитки</span>
-                        </div>
-                        <div class="number-item">
-                            206 <span>Еда</span>
-                        </div>
-                        <div class="number-item">
-                            71 <span>Закуски</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="history-images">
-                    <img class="images-4" src="Images/4.jpg" alt="">
-
-
-
-                    <img class="images-1" src="Images/1.jpg" alt="">
-                    <img class="images-3" src="Images/3.jpg" alt="">
-                    <img class="images-2" src="Images/2.jpg" alt="">
-
-
-
-                </div>
+            <div>
+                <img class="logo" src="image/Logo.svg" alt="">
+            </div>
+            <div class="item">
+                <h2>external links</h2>
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Order & Delivery</a></li>
+                    <li><a href="">Payment Options</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h2>main information</h2>
+                <ul>
+                    <li>
+                        <span>
+                            Time
+                        </span>
+                        Mon - Sun<br>
+                        11:00 am - 10:00 pm
+                    </li>
+                    <li>
+                        <span>
+                            Address
+                        </span>
+                        5 Tverskaya street, Moscow
+                    </li>
+                </ul>
+            </div>
+            <div class="tel">
+                <ul>
+                    <li>+ 7 900 787 13-13</li>
+                    <li>+ 7 900 700 14-14</li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="black-block">
-        <div class="container">
-
-            <div class="block-holder">
-                <div class="left">
-                    <div class="left-title">
-                        Отпразднуйте в одном из <br>
-                        самых лучших ресторанов.
-                    </div>
-                    <div class="left-text">
-                        Только в этом месяце бизнес-ланч от 250 ₽
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="right-button">
-                        <a href="#" class="right-btn">ЗАКАЗ СТОЛИКА</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="dishes">
-        <div class="container">
-            <div class="dishes-title">
-                Наши <span>Блюда</span>
-            </div>
-            <div class="burgers">
-                <div class="burgers-image">
-                    <img src="Images/pizza.jpg" class="pizza" alt="Pizza">
-                </div>
-                <div class="burgers-items">
-                    <div class="burger-item">
-                        <img src="Images/burger.jpg" alt="burger">
-                        <div class="burger-text">
-                            Гамбургер мини ---------- 220 ₽
-                        </div>
-                    </div>
-                    <div class="burger-item">
-                        <img src="Images/burger.jpg" alt="burger">
-                        <div class="burger-text">
-                            Гамбургер мини ---------- 220 ₽
-                        </div>
-                    </div>
-                    <div class="burger-item">
-                        <img src="Images/burger.jpg" alt="burger">
-                        <div class="burger-text">
-                            Гамбургер мини ---------- 220 ₽
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="menu">
-        <div class="container">
-            <div class="menu-title">
-                Наше меню
-            </div>
-            <div class="menu-items">
-                <div class="menu-item">
-                    <div class="menu-image">
-                        <img src="Images/menu-item.png" class="menu-img" alt="Hamburger">
-                        <div class="price">
-                        <img src="Images/price.png" class="price-image" alt="Price circle">
-                        <div class="price-420">420</div>
-                        <div class="recommended">
-                            RECOMMENDED
-                        </div>
-                    </div>
-                    </div>
-                    <div class="menu-text">
-                        Гамбургер макси
-                    </div>
-                    <div class="menu-subtext">
-                        Максимально толстый<br>
-                        слой мяса
-                    </div>
-                    <div class="menu-button">
-                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-image">
-                        <img src="Images/menu-item.png" class="menu-img" alt="Hamburger">
-                        <div class="price">
-                        <img src="Images/price.png" class="price-image" alt="Price circle">
-                        <div class="price-420">420</div>
-                    </div>
-                    </div>
-                    <div class="menu-text">
-                        Гамбургер макси
-                    </div>
-                    <div class="menu-subtext">
-                        Максимально толстый<br>
-                        слой мяса
-                    </div>
-                    <div class="menu-button">
-                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-image">
-                        <img src="Images/menu-item.png" class="menu-img" alt="Hamburger">
-                        <div class="price">
-                        <img src="Images/price.png" class="price-image" alt="Price circle">
-                        <div class="price-420">420</div>
-                    </div>
-                    </div>
-                    <div class="menu-text">
-                        Гамбургер макси
-                    </div>
-                    <div class="menu-subtext">
-                        Максимально толстый<br>
-                        слой мяса
-                    </div>
-                    <div class="menu-button">
-                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 </body>
 
